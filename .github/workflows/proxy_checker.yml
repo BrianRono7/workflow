@@ -28,7 +28,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run proxy checker
-        run: python proxy_generator.py
+        run: python main.py
 
       - name: Commit updated README
         run: |
